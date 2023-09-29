@@ -239,17 +239,122 @@ nav{
     height: 100%;
     position: absolute;
     width: 396px;
-    background-color: #2405F2;
+    background: linear-gradient(329deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
     z-index: 55;
-    left: 0;
+    left: -396px;
     top: 0;
+    padding: 312px 35px 76px 48px;
+    transition: all linear 0.6s;
+}
+.big-project .overlay h4{
+    width: 313px;
+    text-transform: capitalize;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    font-family: 'Poppins', sans-serif;
+    color: #F4F6FC;
+}
+.big-project .overlay p{
+    text-transform:none;
+    width: 293px;
+    color: #F4F6FC;
+    margin-top: 16px;
+    margin-bottom: 40px;
+}
+.big-project .overlay a{
+    color: #FCD980;
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    margin-left: 16px;
+}
+.big-project:hover .overlay{
+    left: 0;
 }
 .small-project{
-    row-gap: 32px;
+    gap: 32px;
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    width: 405px;
+}
+.small-project-item{
+    width: 100%;
+    overflow: hidden;
+    height: 284px;
+    position: relative;
+}
+.small-project-item img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.small-project-item .overlay{
+    position: absolute;
+    background: linear-gradient(329deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
+    left: 0;
+    top: 0;
+    padding: 129px 36px 45px 56px;
+    transition: all linear 0.6s;
+     height: 100%;
+    width: 100%;
+
+}
+.small-project-item .overlay h5{
+    text-transform: capitalize;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    font-family: 'Poppins', sans-serif;
+    color: #F4F6FC;
+    width: 290px;
+    margin-bottom: 16px;
+}
+.small-project-item .overlay a{
+    color: #FCD980;
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    margin-left: 16px;
+}
+.small-project-item:hover .overlay{
+    opacity: 1;
 }
 /*========project part end   here========*/
+
+/*========features part start here========*/
+#features{
+    padding: 128px 0;
+}
+.features-heading{
+    text-align: center;
+}
+.features-heading h1{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+}
+.features-heading h6{
+    font-family: Poppins;
+font-size: 48px;
+font-weight: 600;
+line-height: 64px;
+text-transform: capitalize;
+color:  #282938;
+width: 630px;
+}
+/*========features part end   here========*/
+
+/*========navbar part start here========*/
+/*========navbar part end   here========*/
+
+/*========navbar part start here========*/
+/*========navbar part end   here========*/
 
 /*========navbar part start here========*/
 /*========navbar part end   here========*/
