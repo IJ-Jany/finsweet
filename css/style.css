@@ -329,29 +329,130 @@ nav{
 /*========features part start here========*/
 #features{
     padding: 128px 0;
+    background-color: #F4F6FC;
 }
 .features-heading{
     text-align: center;
 }
 .features-heading h1{
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 28px;
+    text-transform: capitalize;
+    color: #282938;
 }
-.features-heading h6{
-    font-family: Poppins;
-font-size: 48px;
-font-weight: 600;
-line-height: 64px;
-text-transform: capitalize;
-color:  #282938;
-width: 630px;
+.features-heading .section-heading{
+    margin: 12px auto 47px auto ;
+    width: 630px;
+}
+.features-wrapper{
+    display: flex;
+    row-gap: 24px;
+    column-gap: 32px;
+    flex-wrap: wrap;
+}
+.features-item{
+    width: 405px;
+    background-color: aliceblue;
+    padding: 58px 32px 48px 48px;
+}
+.features-item .features-icon i{
+    color: #2405F2;
+    font-size: 25px;
+}
+.features-item h1{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    margin-top: 22px;
+    font-family: 'Poppins', sans-serif;
+    color: #282938;
+}
+.features-item p{
+  font-family: 'Poppins', sans-serif;
+  margin-top: 12px;
+  font-size: 16px;
+  line-height: 400;
+  line-height: 28px;
+  opacity: 0.7;
+  color: #282938;
 }
 /*========features part end   here========*/
 
-/*========navbar part start here========*/
-/*========navbar part end   here========*/
+/*========testimonial part start here========*/
+#testimonial{
+    padding: 128px 0;
+    background-color: #f4f6fcab;
+}
+.testimonial-wrapper{
+    display: flex;
+    column-gap: 110px;
+    justify-content: space-between;
+}
+.testimonial-heading{
+    width: 327px;
+}
+.testimonial-heading h5{
+     font-size: 38px;
+     font-weight: 600;
+     line-height: 56px;
+     color: #000000;
+     opacity: 0.7;
+     font-family: 'Poppins', sans-serif;
+     text-transform: capitalize;
+     margin-bottom: 16px;
+}
+.testimonial-heading p{
+    font-weight: 400;
+    line-height: 28px;
+    opacity: 0.7;
+    color: #282938;
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+}
+.testimonial-content{
+    width: 843px;
+}
+.content-heading h6{
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 48px;
+    margin-bottom: 48px;
+    color: #282938;
+}
+.client-avatar{
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.client-avatar img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.client-profile{
+    display: flex;
+    column-gap: 14px;
+    align-items: center;
+}
+.client-details h4{
+font-weight: 500;
+font-size: 18px;
+font-family: 'Poppins', sans-serif;
+color: #282938;
+}
+.client-details h1{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 28px;
+    color: #282938;
+}
+
+
+/*========testimonial part end   here========*/
 
 /*========navbar part start here========*/
 /*========navbar part end   here========*/
